@@ -1,0 +1,12 @@
+# Features to be implemented
+- [ ] Move all data to Firebase and update the API accordingly
+	- this will meet the design goal of free DB hosting
+- [ ] Input validation (do this upon keyup, not when next is pressed? Or when the input loses focus?)
+- [ ] Data collection time is not correct
+- [ ] Generate AZ Game and Fish Dept report automatically
+- [ ] Provide consistent documentation in .md format for future teams
+- [ ] SVL should be 1 decimal place, rounded to nearest 0.5g so only .0 and .5 should be permitted
+- [ ] Make it more clear that a session is over
+- [ ] Recapture column in web UI should be T/F instead of True/False
+- [ ] Need to be able to edit column names and rename species names in the web UI because they change periodically throughout the years
+- [ ] Need a merge button in the web UI for merging sessions together
