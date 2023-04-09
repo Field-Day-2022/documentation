@@ -1,36 +1,44 @@
 # PWA
 ## Running locally
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu ac tortor dignissim convallis aenean. Tristique risus nec feugiat in. Adipiscing commodo elit at imperdiet dui accumsan sit amet nulla. Viverra nam libero justo laoreet sit. Adipiscing elit pellentesque habitant morbi tristique senectus et netus et. Vulputate dignissim suspendisse in est ante in nibh mauris cursus. Est pellentesque elit ullamcorper dignissim cras. Justo eget magna fermentum iaculis eu non diam. Nibh sed pulvinar proin gravida hendrerit lectus. Massa placerat duis ultricies lacus sed. Nunc eget lorem dolor sed viverra ipsum.
+PWAs are essentially small web apps that users are able to either use in their browser or install for local use.  This is ideal for the Field Day project, as it allows data to be collected offline to be synced with a database later.  The Field Day PWA meets all of the [install criteria](https://web.dev/install-criteria/) required for a safe installation. 
 
-1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu ac tortor dignissim convallis aenean. Tristique risus nec feugiat in. Adipiscing commodo elit at imperdiet dui accumsan sit amet nulla. Viverra nam libero justo laoreet sit. Adipiscing elit pellentesque habitant morbi tristique senectus et netus et. Vulputate dignissim suspendisse in est ante in nibh mauris cursus. Est pellentesque elit ullamcorper dignissim cras. Justo eget magna fermentum iaculis eu non diam. Nibh sed pulvinar proin gravida hendrerit lectus. Massa placerat duis ultricies lacus sed. Nunc eget lorem dolor sed viverra ipsum.
-2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu ac tortor dignissim convallis aenean. Tristique risus nec feugiat in. Adipiscing commodo elit at imperdiet dui accumsan sit amet nulla. Viverra nam libero justo laoreet sit. Adipiscing elit pellentesque habitant morbi tristique senectus et netus et. Vulputate dignissim suspendisse in est ante in nibh mauris cursus. Est pellentesque elit ullamcorper dignissim cras. Justo eget magna fermentum iaculis eu non diam. Nibh sed pulvinar proin gravida hendrerit lectus. Massa placerat duis ultricies lacus sed. Nunc eget lorem dolor sed viverra ipsum.
-3. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu ac tortor dignissim convallis aenean. Tristique risus nec feugiat in. Adipiscing commodo elit at imperdiet dui accumsan sit amet nulla. Viverra nam libero justo laoreet sit. Adipiscing elit pellentesque habitant morbi tristique senectus et netus et. Vulputate dignissim suspendisse in est ante in nibh mauris cursus. Est pellentesque elit ullamcorper dignissim cras. Justo eget magna fermentum iaculis eu non diam. Nibh sed pulvinar proin gravida hendrerit lectus. Massa placerat duis ultricies lacus sed. Nunc eget lorem dolor sed viverra ipsum.
+1. Download the [PWA repository]([https://github.com/Field-Day-2022/field-day-2022-webUI](https://github.com/Field-Day-2022/field-day-2022-pwa)) if you haven't already and check out the branch you want to work on
+2. In the Web UI directory, open a terminal
+3. If this is your first time, run:
+> npm install react-scripts
+4. Enter the following command:
+> npm start
+5. For additional information, please view our [example PWA repository](https://github.com/IanSkelskey/advanced-pwa)
 
 ## Developing code
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Arcu ac tortor dignissim convallis aenean. Tristique risus nec feugiat in. Adipiscing commodo elit at imperdiet dui accumsan sit amet nulla. Viverra nam libero justo laoreet sit. Adipiscing elit pellentesque habitant morbi tristique senectus et netus et. Vulputate dignissim suspendisse in est ante in nibh mauris cursus. Est pellentesque elit ullamcorper dignissim cras. Justo eget magna fermentum iaculis eu non diam. Nibh sed pulvinar proin gravida hendrerit lectus. Massa placerat duis ultricies lacus sed. Nunc eget lorem dolor sed viverra ipsum.
+The source code is located in the src directory.  Individual components, forms, and pages can be found and modified within subdirectories.  When you're ready to test your code locally, follow the above directions.  When you're ready to deploy your code, follow this [guide](https://create-react-app.dev/docs/deployment/).
 
 ## Resources
-[Lorem ipsum dolor sit amet](https://loremipsum.io/generator/?n=1&t=p)
+[PWA explanation](https://en.wikipedia.org/wiki/Progressive_web_app)
+
+[Example PWA repository](https://github.com/IanSkelskey/advanced-pwa)
+
+[Deployment guide](https://create-react-app.dev/docs/deployment/)
 
 ## Individual components
-[Button](https://github.com/Field-Day-2022/field-day-2022-pwa/blob/main/src/components/Button.jsx) - 
+[Button](https://github.com/Field-Day-2022/field-day-2022-pwa/blob/main/src/components/Button.jsx) - Generic clickable button
 
-[ConfirmationModal](https://github.com/Field-Day-2022/field-day-2022-pwa/blob/main/src/components/ConfirmationModal.jsx) - 
+[ConfirmationModal](https://github.com/Field-Day-2022/field-day-2022-pwa/blob/main/src/components/ConfirmationModal.jsx) - Hardcoded modals for each table type and column name
 
-[Dropdown](https://github.com/Field-Day-2022/field-day-2022-pwa/blob/main/src/components/Dropdown.jsx) - 
+[Dropdown](https://github.com/Field-Day-2022/field-day-2022-pwa/blob/main/src/components/Dropdown.jsx) - Generic dropdown menu
 
-[FormWrapper](https://github.com/Field-Day-2022/field-day-2022-pwa/blob/main/src/components/FormWrapper.jsx) - 
+[FormWrapper](https://github.com/Field-Day-2022/field-day-2022-pwa/blob/main/src/components/FormWrapper.jsx) - HTML div wrapper
 
-[Navbar](https://github.com/Field-Day-2022/field-day-2022-pwa/blob/main/src/components/Navbar.jsx) - 
+[Navbar](https://github.com/Field-Day-2022/field-day-2022-pwa/blob/main/src/components/Navbar.jsx) - Top navigation bar
 
-[Notification](https://github.com/Field-Day-2022/field-day-2022-pwa/blob/main/src/components/Notification.jsx) - 
+[Notification](https://github.com/Field-Day-2022/field-day-2022-pwa/blob/main/src/components/Notification.jsx) - Generic notification box
 
-[NumberInput](https://github.com/Field-Day-2022/field-day-2022-pwa/blob/main/src/components/NumberInput.jsx) - 
+[NumberInput](https://github.com/Field-Day-2022/field-day-2022-pwa/blob/main/src/components/NumberInput.jsx) - Input box for numbers with validation, including settings for integers, no precision below tenths, and upper bounds
 
-[PlusMinusButtons](https://github.com/Field-Day-2022/field-day-2022-pwa/blob/main/src/components/PlusMinusButtons.jsx) - 
+[PlusMinusButtons](https://github.com/Field-Day-2022/field-day-2022-pwa/blob/main/src/components/PlusMinusButtons.jsx) - Buttons to wrap around the passed children
 
-[SingleCheckbox](https://github.com/Field-Day-2022/field-day-2022-pwa/blob/main/src/components/SingleCheckbox.jsx) - 
+[SingleCheckbox](https://github.com/Field-Day-2022/field-day-2022-pwa/blob/main/src/components/SingleCheckbox.jsx) - Checkbox input field
 
-[TextInput](https://github.com/Field-Day-2022/field-day-2022-pwa/blob/main/src/components/TextInput.jsx) - 
+[TextInput](https://github.com/Field-Day-2022/field-day-2022-pwa/blob/main/src/components/TextInput.jsx) - Text input field
 
-[ToeCodeInput](https://github.com/Field-Day-2022/field-day-2022-pwa/blob/main/src/components/ToeCodeInput.jsx) - 
+[ToeCodeInput](https://github.com/Field-Day-2022/field-day-2022-pwa/blob/main/src/components/ToeCodeInput.jsx) - Input field for clipped toes, which are used for identifying previously tracked animals
